@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Outfit:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@400;700&display=swap");
+
 :root {
   --bright-orange: hsl(31, 77%, 52%);
   --dark-cyan: hsl(184, 100%, 22%);
   --very-dark-cyan: hsl(179, 100%, 13%);
+  --p-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
 }
 
 * {
@@ -13,14 +18,116 @@
 body {
   height: 100vh;
   width: 100vw;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--very-light-gray);
 }
 
-
-.attribution { 
-  font-size: 11px; 
-  text-align: center; 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  margin: 0 auto;
+  width: calc(100% - 100px);
+}
+img {
+  padding-left: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
+.card-1 {
+  background: var(--bright-orange);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
+
+.card-2 {
+  background: var(--dark-cyan);
+}
+
+.card-3 {
+  background: var(--very-dark-cyan);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+h1 {
+  font-family: "Big shoulders display", sans-serif;
+  margin-top: -10px;
+  color: var(--very-light-gray);
+}
+
+p {
+  font-family: "Lexend deca", sans-serif;
+  margin-top: 15px;
+  color: var(--p-white);
+  line-height: 25px;
+}
+
+.btn {
+  padding: 15px;
+  border-radius: 50px;
+  background-color: var(--very-light-gray);
+  border: none;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  width: 135px;
+  font-family: "Lexend deca", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card {
+  max-width: 23rem;
+  padding: 1rem 3rem;
+}
+
+.card-1 .btn {
+  color: var(--bright-orange);
+}
+
+.card-2 .btn {
+  color: var(--dark-cyan);
+}
+
+.card-3 .btn {
+  color: var(--very-dark-cyan);
+}
+
+.btn:hover {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 780px) {
+
+  .container {
+    flex-wrap: wrap;
+  }
+  .card {
+    overflow: hidden;
+  }
+
+  .card-1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .card-1 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+} 
