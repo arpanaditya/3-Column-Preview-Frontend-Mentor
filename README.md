@@ -27,4 +27,11 @@ Challenge Link: [View Here](https://www.frontendmentor.io/challenges/3column-pre
 
 Live Site Link: [View Here](https://arpanaditya.github.io/3-Column-Preview-Frontend-Mentor)
 
+## Author
+
+- LinkedIn - [Aditya Arpan Sahoo](https://www.linkedin.com/in/arpan-aditya)
+- Frontend Mentor - [@arpanaditya](https://www.frontendmentor.io/profile/arpanaditya)
+- Twitter - [@adityaa_sahoo](https://www.twitter.com/adityaa_sahoo)
+- Other Socials - @[arpanaditya](https://linktr.ee/arpanaditya)
+
 **Do checkout and give feedbacks!** 🚀
