@@ -23,8 +23,8 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ## Where to find everything
 
-Challenge Link: https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-
+Challenge Link: [View Here](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
 
-Live Site Link: https://arpanaditya.github.io/3-Column-Preview-Frontend-Mentor
+Live Site Link: [View Here](https://arpanaditya.github.io/3-Column-Preview-Frontend-Mentor)
 
 **Do checkout and give feedbacks!** 🚀
